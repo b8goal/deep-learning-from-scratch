@@ -270,26 +270,26 @@ output
 ### 주요 특징
 
 1. **다차원 배열**: `numpy`는 `ndarray`라는 다차원 배열 객체를 제공한다. 이 배열은 동일한 타입의 데이터를 저장하며, 빠른 연산을 위해 최적화되어 있다.
-```python
+   ```python
    import numpy as np 
    arr = np.array([1, 2, 3, 4, 5])
    ```
-   2. 브로드캐스팅: 다른 형상을 가진 배열 간의 연산을 가능하게 해주는 기능이다.
-      ```python
-      arr1 = np.array([[1, 2], [3, 4]]) 
-      arr2 = np.array([1, 2]) 
-      result = arr1 + arr2
-      ```
-   3. 유니버설 함수: 배열의 각 요소에 대한 연산을 빠르게 수행하는 함수이다.
-      ```python
-      arr = np.array([1, 2, 3, 4, 5]) result = np.sqrt(arr)
-      ```
-   4. 선형 대수 연산, 통계 관련 함수: numpy는 선형 대수 연산, 통계 관련 함수도 제공한다.
- ```python
-      arr = np.array([[1, 2], [3, 4]])
-      transpose = np.transpose(arr)
-      ```
-   5. 효율적인 메모리 사용: C나 Fortran과 같은 언어로 작성된 numpy는 내부적으로 효율적인 메모리 사용을 위해 설계되었다.
+2. 브로드캐스팅: 다른 형상을 가진 배열 간의 연산을 가능하게 해주는 기능이다.
+    ```python
+    arr1 = np.array([[1, 2], [3, 4]]) 
+    arr2 = np.array([1, 2]) 
+    result = arr1 + arr2
+    ```
+3. 유니버설 함수: 배열의 각 요소에 대한 연산을 빠르게 수행하는 함수이다.
+    ```python
+    arr = np.array([1, 2, 3, 4, 5]) result = np.sqrt(arr)
+    ```
+4. 선형 대수 연산, 통계 관련 함수: numpy는 선형 대수 연산, 통계 관련 함수도 제공한다.
+    ```python
+    arr = np.array([[1, 2], [3, 4]])
+    transpose = np.transpose(arr)
+    ```
+5. 효율적인 메모리 사용: C나 Fortran과 같은 언어로 작성된 numpy는 내부적으로 효율적인 메모리 사용을 위해 설계되었다.
 
 #### 12. Matplotlab
 matplotlab은 파이썬에서 데이터를 시각화하기 위한 라이브러리다. 
